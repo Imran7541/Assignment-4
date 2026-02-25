@@ -11,10 +11,6 @@ const emptySection = document.getElementById('empty-state')
 function toggleTab (tab) {
  const tabs = ['all', 'interview', 'reject'];
 
-//  allContainer.classList.add('hidden')
-//  interviewSection.classList.add('hidden')
-//  rejectedSection.classList.add('hidden')
-
  for( t of tabs) {
     const btnName = document.getElementById('btn-' + t);
      
@@ -91,25 +87,6 @@ document.getElementById('main-container')
     }
 updateCount()
     
-
-
-//     const clickElement = event.target;
-//     const card = clickElement.closest('.card');
-//     const parent = card.parentNode;
-//     const copyCode = card.cloneNode(true);
-//     interviewSection.appendChild(copyCode)
-//     const status = card.querySelector('.status')
-//  console.log(card)
-
-//      
-//     if(clickElement.classList.contains('rejected-btn')) {
-//          status.innerText = 'Rejected'
-//       rejectedSection.appendChild(card)
-//     }
-//     if(clickElement.classList.contains('dlt-btn')) {
-//     parent.removeChild(card)
-//     }
-
 });
 
 function updateCount() {
