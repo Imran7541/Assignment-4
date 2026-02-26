@@ -31,11 +31,12 @@
     <main id="main-container">
         <section id="job-container">
             <div class="flex justify-between">
-                <h1 class="text-2xl sm:text-3xl font-bold mb-2 sm:mb-0">Available Jobs</h1>
+                <h1 class="text-2xl sm:text-3xl font-bold mb-2 sm:mb-0 pr-4 
+           max-sm:pl-5 max-sm:text-center sm:text-left">Available Jobs</h1>
                 <p id="job-count" class="text-lg sm:text-xl">8 jobs</p>
             </div>
             <!-- vai eta responsive change kora lagte pare -->
-     <div class="grid grid-cols-3 gap-5 px-3 py-3 ">
+     <div class="px-5 py-10 space-x-3 ">
      <button onclick="toggleTab('all')" id="btn-all"
   class="bg-blue-500 text-white px-3 py-1 text-sm  shadow-xl rounded-[5px] cursor-pointer">All</button>
  <button onclick="toggleTab('interview')" id="btn-interview"
@@ -46,7 +47,7 @@
 
      <!-- card-->
       
-         <section id="card-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-6 hidden">
+         <section id="card-container" class="space-y-5 hidden">
      <div class="flex justify-between grid-cols-1 px-8 py-5 rounded-[5px] shadow-2xl card">       <div class="sm:space-y-6 py-5">
         <h2 class="text-xl font-bold mobile-first">Mobile First crop</h2>
           <p class="position">React Native Developer</p>
@@ -65,7 +66,7 @@
  </div>
 
   <div>
- <button class=" w-8 border rounded-xl px-1    py-1"><img class="dlt-btn" src="delete (1).png"
+ <button class=" w-8 border rounded-xl px-1 py-1"><img class="dlt-btn" src="delete (1).png"
    alt=""></button>
    </div>
 </div>
